@@ -1,0 +1,22 @@
+// Parameter file for Structure Analysis
+// by Wolfgang Lechner
+// wolfgang.lechner@gmail.com
+//
+// In this example a perfect FCC crystal is created. The
+// keyword is CREATEFCC, the baseunit is the number of 
+// points per direction. In the FCC case this means that
+// there are N = 4*baseunit**3 points in the system.
+// xBox, yBox and zBox are the dimensionso of the Box.
+
+XYZFile=CREATEFCC
+BaseUnit=4
+xBox=20.0
+yBox=20.0
+zBox=20.0
+
+//The neighbor radius, points are considered neighbors
+//when their distance is smaller than NeighborDistance
+
+NeighborDistance=5
+
+

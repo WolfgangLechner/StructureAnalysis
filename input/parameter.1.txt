@@ -1,0 +1,21 @@
+// Parameter file for Structure Analysis
+// by Wolfgang Lechner
+// wolfgang.lechner@gmail.com
+//
+// Example of a parameter file to read a xyz file 
+// and output the orderparameters. The filename is
+// given to XYZFile as a relative path to the 
+// path where the program is executed. 
+// The xyz file should start with the number of Points 
+// in the system, followed by three lines containing the
+// dimensions of the Box in x,y, and z directions.
+// Then N lines with the positions of the points. 
+
+XYZFile=./input/configuration.dat
+
+//The neighbor radius, points are considered neighbors
+//when their distance is smaller than NeighborDistance
+
+NeighborDistance=5
+
+

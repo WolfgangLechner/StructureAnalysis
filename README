@@ -1,0 +1,38 @@
+ 
+ Structure Analysis Code v 1.0
+ by Wolfgang Lechner, Vienna/Amsterdam 2010-2012
+
+ wolfgang.lechner@gmail.com
+
+
+
+ This source code is licensed under the Academic Free License
+ Copyright by Wolfgang Lechner, 2010-2012
+ In addition to that I would like you to cite
+ Wolfgang Lechner and Christoph Dellago, J. Chem. Phys. 129, 114707 (2008)
+ and send me a short email about your project when using this code.
+
+ NOTES ON THE INSTALLATION:
+ 
+ Generate the executable with 
+ 
+ make
+ 
+ This will create a executable "main" in the base directory. There are 4 examples 
+ inclued that show the basic use of the package. When executing
+ 
+ ./main 1
+ 
+ the parameter file "parameter.1.txt" in the input directory will be used. This 
+ demonstrates an example where a configuration is read and analysed. The configuration
+ that is read is "configuration.dat". For further information have a look at the
+ comments in the parameter file.
+ 
+
+ ./main 2 
+ ./main 3
+ ./main 4
+
+ demonstrates how to create a prefect FCC,BCC or HCP crystal, respectively. For further
+ information see the comments in the respective parameterfiles.
+  

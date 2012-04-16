@@ -1,0 +1,28 @@
+// Parameter file for Structure Analysis
+// by Wolfgang Lechner
+// wolfgang.lechner@gmail.com
+//
+// In this example a perfect HCC crystal is created. The
+// keyword is CREATEHCP, the baseunit is the number of 
+// points per direction. In the FCC case this means that
+// there are N = baseunit**3 points in the system.
+// xBox, yBox and zBox are the dimensions of the Box.
+// A HCP strucuture does not fit into a qubic box, 
+// the shape of the box is:
+// x = a
+// y = a * sqrt(3)/2
+// z = a * sqrt(2)/sqrt(3)
+
+XYZFile=CREATEHCP
+BaseUnit=8
+xBox=10.0000000
+yBox=8.66025404
+zBox=8.16496581
+
+
+//The neighbor radius, points are considered neighbors
+//when their distance is smaller than NeighborDistance
+
+NeighborDistance=1.6
+
+
