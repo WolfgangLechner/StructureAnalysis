@@ -35,4 +35,16 @@
 
  demonstrates how to create a prefect FCC,BCC or HCP crystal, respectively. For further
  information see the comments in the respective parameterfiles.
-  
+ 
+ The output is written to a file called "results.1.dat" in the output directory (given that 
+ ./main 1 is executed). Each line consists of 9 columns: the index of the particles, 
+ the 3 coordinates x,y,z, then the averaged order parameters aq4 and aq6, the bond order 
+ parameters q4 and q6 followed by the number of neighbors.  
+ 
+ In short:
+ i x y z aq4 aq6 q4 q6 N_b
+
+ The code in its current form assumes periodic boundary conditions. If you have problems 
+ with open boundaries please do not hesitate to conntact me. 
+ 
+ 
