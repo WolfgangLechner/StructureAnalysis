@@ -299,22 +299,22 @@ void CMolecularSystem::fillConstants()
   constants.WignerSymbol6[15] =  -0.0930595; //0  0  0
 
   //number of permutations for l=6
-  constants.WignerPermutations6[0]  = 6.0; //6  -6   0
-  constants.WignerPermutations6[1]  = 6.0; //6  -5  -1
-  constants.WignerPermutations6[2]  = 6.0; //6  -4  -2
-  constants.WignerPermutations6[3]  = 3.0; //6  -3  -3
-  constants.WignerPermutations6[4]  = 6.0; //5  -5   0
-  constants.WignerPermutations6[5]  = 6.0; //5  -4  -1
-  constants.WignerPermutations6[6]  = 6.0; //5  -3  -2
-  constants.WignerPermutations6[7]  = 6.0; //4  -4   0
-  constants.WignerPermutations6[8]  = 6.0; //4  -3  -1
-  constants.WignerPermutations6[9]  = 3.0; //4  -2  -2
-  constants.WignerPermutations6[10] = 6.0; //3  -3   0
-  constants.WignerPermutations6[11] = 6.0; //3  -2  -1
-  constants.WignerPermutations6[12] = 6.0; //2  -2   0
-  constants.WignerPermutations6[13] = 3.0; //2  -1  -1
-  constants.WignerPermutations6[14] = 6.0; //1  -1   0
-  constants.WignerPermutations6[15] = 1.0; //0   0   0
+  constants.WignerPermutations6[0]  = 6.0;  //6  -6   0
+  constants.WignerPermutations6[1]  = 12.0; //6  -5  -1
+  constants.WignerPermutations6[2]  = 12.0; //6  -4  -2
+  constants.WignerPermutations6[3]  = 6.0;  //6  -3  -3
+  constants.WignerPermutations6[4]  = 6.0;  //5  -5   0
+  constants.WignerPermutations6[5]  = 12.0; //5  -4  -1
+  constants.WignerPermutations6[6]  = 12.0; //5  -3  -2
+  constants.WignerPermutations6[7]  = 6.0;  //4  -4   0
+  constants.WignerPermutations6[8]  = 12.0; //4  -3  -1
+  constants.WignerPermutations6[9]  = 6.0;  //4  -2  -2
+  constants.WignerPermutations6[10] = 6.0;  //3  -3   0
+  constants.WignerPermutations6[11] = 12.0; //3  -2  -1
+  constants.WignerPermutations6[12] = 6.0;  //2  -2   0
+  constants.WignerPermutations6[13] = 6.0;  //2  -1  -1
+  constants.WignerPermutations6[14] = 6.0;  //1  -1   0
+  constants.WignerPermutations6[15] = 1.0;  //0   0   0
 
 
   //l = 4
