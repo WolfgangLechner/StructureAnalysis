@@ -329,12 +329,12 @@ void CMolecularSystem::fillConstants()
   constants.WignerSymbol4[8] =   0.134097;  //0  0  0
 
   constants.WignerPermutations4[0]  = 6.0; //4  -4   0
-  constants.WignerPermutations4[1]  = 6.0; //4  -3  -1
-  constants.WignerPermutations4[2]  = 3.0; //4  -2  -2
+  constants.WignerPermutations4[1]  = 12.0; //4  -3  -1
+  constants.WignerPermutations4[2]  = 6.0; //4  -2  -2
   constants.WignerPermutations4[3] = 6.0; //3  -3   0
-  constants.WignerPermutations4[4] = 6.0; //3  -2  -1
+  constants.WignerPermutations4[4] = 12.0; //3  -2  -1
   constants.WignerPermutations4[5] = 6.0; //2  -2   0
-  constants.WignerPermutations4[6] = 3.0; //2  -1  -1
+  constants.WignerPermutations4[6] = 6.0; //2  -1  -1
   constants.WignerPermutations4[7] = 6.0; //1  -1   0
   constants.WignerPermutations4[8] = 1.0; //0   0   0
 
